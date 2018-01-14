@@ -1,9 +1,12 @@
-Electrum-DOGE - lightweight Dogecoin client
+This is a WIP:  DO NOT ATTEMPT TO INSTALL!
+
+Electrum-NYC - lightweight NewYorkCoin client
 
 Licence: GNU GPL v3
 Author: Electrum-DOGE contributors & Thomas Voegtlin
+Port Maintainer: NewYorkCoin (Electrum-NYC)
 Language: Python
-Homepage: https://electrum-doge.com
+Homepage: https://electrum-nyc.com
 
 
 1. GETTING STARTED
@@ -11,13 +14,13 @@ Homepage: https://electrum-doge.com
 
 To run Electrum from this directory, just do:
 
-  ./electrum-doge
+  ./electrum-nyc
 
 If you install Electrum on your system, you can run it from any
 directory:
 
   sudo python setup.py install
-  electrum-doge
+  electrum-nyc
 
 2. HOW OFFICIAL PACKAGES ARE CREATED
 ------------------------------------
@@ -34,6 +37,6 @@ On Mac OS X:
   # On brew installs
   ARCHFLAGS="-arch i386 -arch x86_64" sudo python setup-release.py py2app --includes sip
 
-  sudo hdiutil create -fs HFS+ -volname "Electrum-Doge" -srcfolder dist/Electrum-Doge.app dist/electrum-doge-VERSION-macosx.dmg
+  sudo hdiutil create -fs HFS+ -volname "Electrum-NYC" -srcfolder dist/Electrum-NYC.app dist/electrum-nyc-VERSION-macosx.dmg
 
 
